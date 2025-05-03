@@ -44,7 +44,6 @@ Se entrenaron y compararon los siguientes modelos de clasificación:
 
 ---
 
-## 📊 Resultados Finales
 
 ## 📊 Resultados Finales
 
