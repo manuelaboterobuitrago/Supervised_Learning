@@ -3,7 +3,25 @@
 Este proyecto aplica técnicas de aprendizaje supervisado para clasificar canciones utilizando un conjunto de datos de características de audio de Spotify. Se evalúan diferentes modelos de machine learning con un enfoque práctico y técnico.
 
 ---
+## 📂 Información del Dataset
 
+**Descripción:** El dataset contiene características numéricas de canciones populares de Spotify. La variable objetivo es `target`, donde:
+- `1` indica que la canción es "agradable".
+- `0` indica que no lo es.
+
+### 🔢 Variables principales:
+- `acousticness`: Medida de qué tan acústica es una canción.
+- `danceability`: Medida de qué tan adecuada es una canción para bailar.
+- `duration_ms`: Duración de la canción en milisegundos.
+- `energy`: Medida de intensidad y actividad.
+- `instrumentalness`: Predicción de la presencia de voces.
+- `liveness`: Probabilidad de que la canción haya sido grabada en vivo.
+- `loudness`: Volumen promedio en decibelios.
+- `speechiness`: Presencia de palabras habladas.
+- `tempo`: Tempo de la canción (BPM).
+- `valence`: Medida de positividad de la canción.
+- `target`: Variable binaria (objetivo).
+---
 ## 📌 Objetivo
 
 Explorar, preprocesar y entrenar modelos de clasificación que permitan predecir si una canción es popular o no, basándose en variables como `acousticness`, `danceability`, `energy`, entre otras.
